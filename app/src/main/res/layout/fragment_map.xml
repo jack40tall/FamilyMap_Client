@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/informationBar"
+        tools:layout="@layout/fragment_login" />
+    
+    <LinearLayout
+        android:id="@+id/informationBar"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/mapIcon"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/PersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/mapFragmentMessage"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/EventInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

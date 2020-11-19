@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/person_allEventInformation"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+
+    <ImageView
+        android:id="@+id/person_eventMarkerIcon"
+        android:layout_width="0px"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/person_eventInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/person_eventPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="mapFragmentMessage">Click on a marker to see event details</string>
+    <string name="icon_android">&#xf500;</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="gender">Gender</string>
+    <string name="group1">LIFE EVENTS</string>
+    <string name="group2">FAMILY</string>
+
+    <string name="good_job">You selected %s as your event</string>
+    <string name="good_person">You selected %s as your person</string>
+    <string name="settings_lifeStoryLines">Life Story Lines</string>
+    <string name="settings_lifeStoryLinesExplain">SHOW LIFE STORY LINES</string>
+    <string name="settings_familyTreeLines">Family Tree Lines</string>
+    <string name="settings_familyTreeLinesExplain">SHOW FAMILY TREE LINES</string>
+    <string name="settings_spouseLines">Spouse Lines</string>
+    <string name="settings_spouseLinesExplain">SHOW SPOUSE LINES</string>
+    <string name="settings_fathersSide">Father\'s Side</string>
+    <string name="settings_fathersSideExplain">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="settings_mothersSide">Mother\'s Side</string>
+    <string name="settings_mothersSideExplain">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="settings_maleEvents">Male Events</string>
+    <string name="settings_maleEventsExplain">FILTER EVENTS BASED ON GENDER</string>
+    <string name="settings_femaleEvents">Female Events</string>
+    <string name="settings_femaileEventsExplain">FILTER EVENTS BASED ON GENDER</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_logoutsExplain">RETURN TO LOGIN SCREEN</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="title_activity_map">Event Activity</string>
+    <string name="title_activity_person">Person Activity</string>
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="search_hint">Search person or event</string>
+    <string name="title_activity_search">Search Activity</string>
+
+    <string-array name="group1">
+        <item>item1</item>
+    </string-array>
+
+    <string-array name="group2">
+        <item>item1</item>
+        <item>item2</item>
+    </string-array>
+
+    <string-array name="group3">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <string-array name="group4">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+    <string-array name="group5">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+    </string-array>
+
+
+</resources>
