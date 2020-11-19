@@ -1,6 +1,5 @@
 # FamilyMap_Client
 
-## Main routine
-```
+## Key Components
 [Main Routine](FamilyMap_Client/app/src/main/java/com/example/familymap/jsmall3/)
-```
+
